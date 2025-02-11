@@ -1,0 +1,108 @@
+
+.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div {
+    margin: 25px;
+    color: rgb(255, 255, 255);
+   
+    
+  }
+
+.BoxBorder{
+  border-style: double;
+  border-color: #F9DBBA;
+  background-color: #1F316F;
+  display:inline-block;
+}
+
+
+
+  body{
+    background-image: url("Kayn_OriginalCentered.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    
+  }
+
+main{
+  background-color: #1A4870;
+  margin:100px;
+}
+
+p{
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  margin-left:10px;
+}
+
+header{
+  margin-left:100px;
+}
+
+.Margin{
+  margin: 10px;
+}
+
+.WikiLogo{
+  width: 150px;
+  float: left;
+  box-shadow:black 0 2px 5px 0;
+
+}
+
+.Title{
+  margin-left: 180px;
+}
+
+.ImageOfChar{
+  aspect-ratio: 1/1.1;
+}
+
+a{
+  color:#F9DBBA;
+}
+
+.MarginTopDings{
+  padding-top:20px;
+  margin-left:10px;
+  
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  /*grid-template-columns: 33% 33% 33%;*/
+}
+
+
+
+.ImageSwitch{
+  padding:30px;
+  white-space: nowrap;
+  padding: 0;
+  margin: 20px;
+  
+}
+
+.knopfdings{
+  text-align: center;
+  margin: 10px;
+  border-style: outset;
+  border-color: #F9DBBA;
+}
+
+.container{
+  display: grid;
+  column-gap: 10px;
+}
