@@ -14,7 +14,6 @@ div {
   border-style: double;
   border-color: #F9DBBA;
   background-color: #1F316F;
-  display:inline-block;
 }
 
 
@@ -105,4 +104,9 @@ ul{
 .container{
   display: grid;
   column-gap: 10px;
+}
+
+.box{float: left;width: 32%;padding: 20px; 
+}
+.box:last-child {margin-right:0; 
 }
